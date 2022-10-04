@@ -2,6 +2,8 @@
 
 p{
   color: purple;
+  background color: tan;
+  padding: 20px;
   <--! or use hte hex code-->
   font-weight: bold;
 }
