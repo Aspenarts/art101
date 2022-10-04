@@ -1,5 +1,5 @@
 hi {
-  color: orange;
+  color: blue;
   font-size: 200%;
 }
 
@@ -10,7 +10,7 @@ p {
 }
 
 #content {
-  background-color: #cccccc;
+  background-color: #FFFDD0;
   width: 500px;
   min-height: 300px;
   padding: 10px;
