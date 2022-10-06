@@ -3,7 +3,7 @@
 p{
   color: purple;
   background color: tan;
-  padding: 20px;
+  padding: 60px;
   <--! or use hte hex code-->
   font-weight: bold;
 }
@@ -12,6 +12,6 @@ p{
   background-color: tan;
   padding: 20px;
   margin: 10px;
-  border: solid 1px black;
-  border-radius: 20px;
+  border: solid 20px purple;
+  border-radius: 60px;
 }
