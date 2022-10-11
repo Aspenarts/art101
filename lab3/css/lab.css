@@ -1,0 +1,34 @@
+p{
+  color: purple;
+  background color: tan;
+  padding: 10px;
+  <--! or use hte hex code-->
+  font-weight: bold;
+}
+
+
+#screenshot_one{
+    width: 300px;
+    border: solid 10px black;
+    border-radius: 20px;
+}
+
+#screenshot_two{
+    width: 300px;
+    border: solid 10px black;
+    border-radius: 20px;
+}
+
+#screenshot_three{
+    width: 300px;
+    border: solid 10px black;
+    border-radius: 20px;
+}
+
+#calliut{
+  background-color: tan;
+  padding: 20px;
+  margin: 10px;
+  border: solid 10px black;
+  border-radius: 20px;
+}
