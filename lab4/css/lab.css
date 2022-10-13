@@ -1,0 +1,13 @@
+p{
+  color: black;
+  background color: tan;
+  padding: 15px;
+  font-weight: bold;
+}
+
+img{
+  width: 15opx;
+  height: auto
+  border: solid 10px black;
+  border-radius: 20px;
+}
