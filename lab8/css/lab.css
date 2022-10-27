@@ -22,3 +22,12 @@ img{
   float: bottom;
   width: 250px;
 }
+#output {
+  background-color: #FFFDD0;
+  width: 500px;
+  min-height: 300px;
+  padding: 10px;
+  margin: 10px;
+  border: solid 20px #444444;
+  font-size: 20px;
+}
