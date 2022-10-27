@@ -34,14 +34,14 @@ console.log("Test of eveness of array: ", result);
 //array.map(function(x){
 //  return x**0.5;
 //})
-result = array.map(function(x){
+var halfDivide = array.map(function(x){
   return x ** 0.5;
 })
 // (6) [4.795831523312719, 6.708203932499369,
 // 25.357444666211933, 8.306623862918075, 20.493901531919196,
 // 316.22776601683796]
-console.log("Squareroot of array: ", result);
+console.log("Squareroot of array: ", halfDivide);
 
 
 var outputEl = document.getElementById("output");
-outputEl.innerHTML = result; //put results here
+outputEl.innerHTML = halfDivide; //put results here
