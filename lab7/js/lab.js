@@ -1,12 +1,12 @@
 /**
  * Author:    Caitlin Morgan
  * Created:   10.24.2022
- *
+ * Based off of assignment by Wess Modes
  *
  **/
 //sortUserName - a function that takes user input and sorts the letters
 function sortUserName() {
-  var userName = window.prompt("Hi! Tell me your favorite color so I can make you a new one.");
+  var favoriteColor = window.prompt("Hi! Tell me your favorite color so I can make you a new one.");
   console.log("favoriteColor =", favoriteColor);
   //split string to Arrays
   var colorArray = favoriteColor.split('');
@@ -22,5 +22,5 @@ function sortUserName() {
   return colorSorted;
 }
 //Output
-document.writeIn("Oooh, here's a new color for you: "),
-sortUserName(), "</br>");
+document.writeln("Oooh, here's a new color for you: ", sortUserName(), "</br>");
+//not quite functional - but we plan on asking for some help for this lab at section on the 25th
