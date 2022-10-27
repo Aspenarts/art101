@@ -44,4 +44,7 @@ console.log("Squareroot of array: ", halfDivide);
 
 
 var outputEl = document.getElementById("output");
-outputEl.innerHTML = halfDivide; //put results here
+//outputEl.innerHTML = halfDivide; //put results here
+function output(oneLiner){
+  document.writeln(oneLiner);
+}
