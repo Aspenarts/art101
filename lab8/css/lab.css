@@ -18,3 +18,7 @@ p {
   border: solid 20px #444444;
   font-size: 20px;
 }
+img{
+  float: bottom;
+  width: 250px;
+}
