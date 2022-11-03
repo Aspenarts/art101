@@ -30,6 +30,3 @@ function sortUserName() {
   // favoriteColor.toLower().split("").sort().join("")
   return colorSorted;
 }
-//Output
-document.writeln("Oooh, here's a new color for you: ", sortUserName(), "</br>");
-//not quite functional - but we plan on asking for some help for this lab at section on the 25th
