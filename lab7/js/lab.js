@@ -6,7 +6,7 @@
  **/
 //sortUserName - a function that takes user input and sorts the letters
 function sortUserName() {
-  var favoriteColor = window.prompt("Hi! Tell me your favorite color so I can make you a new one.");
+  var favoriteColor = button("Hi! Tell me your favorite color so I can make you a new one.");
   console.log("favoriteColor =", favoriteColor);
   //split string to Arrays
   var colorArray = favoriteColor.split('');
