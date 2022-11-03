@@ -5,9 +5,10 @@
  *
  **/
 //sortUserName - a function that takes user input and sorts the letters
-buttonEl = document.getElementById("mybutton");
+var buttonEl = document.getElementById("mybutton");
+var outputEl = document.getElementById("output");
 console.log("button element:", buttonEl);
-
+//add an input and add an output o7 ( append )
 buttonEl.addEventListener("sortUserName", function(){
   var userName = inputEl.value;
   var newName = sortUserName(userName);
